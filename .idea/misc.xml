@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/dolpi/AndroidStudioProjects/streetfood3/app/src/main/res/drawable/addxml.xml" value="0.2171875" />
+        <entry key="..\:/Users/dolpi/AndroidStudioProjects/streetfood3/app/src/main/res/drawable/logoutxml.xml" value="0.2171875" />
+        <entry key="..\:/Users/dolpi/AndroidStudioProjects/streetfood3/app/src/main/res/drawable/round_c.xml" value="0.237" />
+        <entry key="..\:/Users/dolpi/AndroidStudioProjects/streetfood3/app/src/main/res/layout/activity_address.xml" value="0.21354166666666666" />
+        <entry key="..\:/Users/dolpi/AndroidStudioProjects/streetfood3/app/src/main/res/layout/activity_home.xml" value="0.19655797101449277" />
+        <entry key="..\:/Users/dolpi/AndroidStudioProjects/streetfood3/app/src/main/res/layout/activity_join.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/dolpi/AndroidStudioProjects/streetfood3/app/src/main/res/layout/activity_main.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/dolpi/AndroidStudioProjects/streetfood3/app/src/main/res/layout/fragment_add.xml" value="0.20104166666666667" />
+        <entry key="..\:/Users/dolpi/AndroidStudioProjects/streetfood3/app/src/main/res/layout/fragment_address.xml" value="0.20104166666666667" />
+        <entry key="..\:/Users/dolpi/AndroidStudioProjects/streetfood3/app/src/main/res/layout/fragment_catagorymap.xml" value="0.20104166666666667" />
+        <entry key="..\:/Users/dolpi/AndroidStudioProjects/streetfood3/app/src/main/res/layout/fragment_category.xml" value="0.20104166666666667" />
+        <entry key="..\:/Users/dolpi/AndroidStudioProjects/streetfood3/app/src/main/res/layout/fragment_home.xml" value="0.20104166666666667" />
+        <entry key="..\:/Users/dolpi/AndroidStudioProjects/streetfood3/app/src/main/res/layout/fragment_mypage.xml" value="0.20104166666666667" />
+        <entry key="..\:/Users/dolpi/AndroidStudioProjects/streetfood3/app/src/main/res/layout/fragment_myregister.xml" value="0.21354166666666666" />
+        <entry key="..\:/Users/dolpi/AndroidStudioProjects/streetfood3/app/src/main/res/layout/fragment_ranking.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/dolpi/AndroidStudioProjects/streetfood3/app/src/main/res/layout/fragment_shopinfo.xml" value="0.20104166666666667" />
+        <entry key="..\:/Users/dolpi/AndroidStudioProjects/streetfood3/app/src/main/res/layout/fragment_toilet_reg.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/dolpi/AndroidStudioProjects/streetfood3/app/src/main/res/layout/fragment_trashcan_reg.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/dolpi/AndroidStudioProjects/streetfood3/app/src/main/res/layout/item_list.xml" value="0.20104166666666667" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

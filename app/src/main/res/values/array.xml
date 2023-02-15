@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="catagory_array">
+        <item>선택</item>
+        <item>붕어빵</item>
+        <item>호떡</item>
+        <item>문어빵</item>
+        <item>계란빵</item>
+        <item>어묵</item>
+        <item>떡볶이</item>
+        <item>순대</item>
+        <item>와플</item>
+        <item>꼬치</item>
+        <item>땅콩빵</item>
+        <item>국화빵</item>
+        <item>군고구마</item>
+        <item>토스트</item>
+        <item>달고나</item>
+        <item>찐옥수수</item>
+    </string-array>
+</resources>

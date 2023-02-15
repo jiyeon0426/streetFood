@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/child_fragment"
+    tools:context=".Add">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="110dp"
+                android:layout_height="50dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/round_c"
+                android:gravity="center"
+                android:text="위치"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:fontFamily="@font/jalnan"/>
+
+            <EditText
+                android:id="@+id/add_address"
+                android:layout_width="189dp"
+                android:layout_height="50dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/round_c"
+                android:fontFamily="@font/jalnan"
+                android:textSize="15sp"
+                android:hint="  위치"
+                android:singleLine="true" />
+
+            <ImageButton
+                android:id="@+id/address_map"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/round_c"
+                android:src="@drawable/map"
+                android:padding="0sp"
+                android:scaleType="fitCenter"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="110dp"
+                android:layout_height="50dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/round_c"
+                android:gravity="center"
+                android:text="상호명"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:fontFamily="@font/jalnan"/>
+
+            <EditText
+                android:id="@+id/add_name"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/round_c"
+                android:fontFamily="@font/jalnan"
+                android:hint="  상호명" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="110dp"
+                android:layout_height="50dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/round_c"
+                android:gravity="center"
+                android:text="영업시간"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:fontFamily="@font/jalnan"/>
+
+            <EditText
+                android:id="@+id/add_time"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/round_c"
+                android:hint="  영업시간"
+                android:fontFamily="@font/jalnan"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="110dp"
+                android:layout_height="50dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/round_c"
+                android:gravity="center"
+                android:text="가격정보"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:fontFamily="@font/jalnan"/>
+
+            <EditText
+                android:id="@+id/add_price"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/round_c"
+                android:hint="  가격정보"
+                android:fontFamily="@font/jalnan"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="110dp"
+                android:layout_height="50dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/round_c"
+                android:gravity="center"
+                android:text="카테고리"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:fontFamily="@font/jalnan"/>
+
+            <Spinner
+                android:id="@+id/add_catagory"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="5dp"
+                android:spinnerMode="dropdown"
+                android:background="@drawable/round_c"
+                android:hint="  카테고리"
+                android:fontFamily="@font/jalnan"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="110dp"
+                android:layout_height="50dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/round_c"
+                android:gravity="center"
+                android:text="그외정보"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:fontFamily="@font/jalnan"/>
+
+            <EditText
+                android:id="@+id/add_info"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/round_c"
+                android:hint="  그외정보"
+                android:fontFamily="@font/jalnan"/>
+        </LinearLayout>
+
+
+
+        <Button
+            android:id="@+id/add_shop"
+            android:layout_width="180dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:background="@drawable/round_c"
+            android:drawableLeft="@drawable/resxml"
+            android:text="가게 등록"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:padding="7sp"
+            android:scaleType="fitCenter"
+            android:fontFamily="@font/jalnan"/>
+    </LinearLayout>
+
+</FrameLayout>

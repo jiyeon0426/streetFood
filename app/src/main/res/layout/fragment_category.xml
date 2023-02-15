@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/child_fragment2"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:context=".Category">
+
+    <!-- TODO: Update blank fragment layout -->
+    <!--<TextView
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:text="@string/hello_blank_fragment" />-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/btn_fish"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/round_c"
+                android:padding="0sp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/fish" />
+            <ImageButton
+                android:id="@+id/btn_hodduk"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:layout_margin="10dp"
+                android:background="@drawable/round_c"
+                android:padding="0sp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/hodduk"/>
+            <ImageButton
+                android:id="@+id/btn_takoyaki"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:layout_margin="10dp"
+                android:background="@drawable/round_c"
+                android:padding="0sp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/takoyaki"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/btn_egg"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/round_c"
+                android:padding="0sp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/egg" />
+            <ImageButton
+                android:id="@+id/btn_aumuk"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:layout_margin="10dp"
+                android:background="@drawable/round_c"
+                android:padding="0sp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/aumuk"/>
+            <ImageButton
+                android:id="@+id/btn_ttekpokke"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:layout_margin="10dp"
+                android:background="@drawable/round_c"
+                android:padding="0sp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ttekpokke"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/btn_sudae"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:layout_margin="10dp"
+                android:background="@drawable/round_c"
+                android:padding="0sp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/sudae"/>
+            <ImageButton
+                android:id="@+id/btn_waffle"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:layout_margin="10dp"
+                android:background="@drawable/round_c"
+                android:padding="0sp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/waffle"/>
+            <ImageButton
+                android:id="@+id/btn_kkochi"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:layout_margin="10dp"
+                android:background="@drawable/round_c"
+                android:padding="0sp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/kkochi"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/btn_peanut"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/round_c"
+                android:padding="0sp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/peanut" />
+            <ImageButton
+                android:id="@+id/btn_kukhwa"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:layout_margin="10dp"
+                android:background="@drawable/round_c"
+                android:padding="0sp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/kukhwa"/>
+            <ImageButton
+                android:id="@+id/btn_sweet"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:layout_margin="10dp"
+                android:background="@drawable/round_c"
+                android:padding="0sp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/sweet"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="203dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/btn_toast"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/round_c"
+                android:padding="0sp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/toast" />
+
+            <ImageButton
+                android:id="@+id/btn_dalgona"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/round_c"
+                android:padding="0sp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/dalgona" />
+
+            <ImageButton
+                android:id="@+id/btn_corn"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/round_c"
+                android:padding="0sp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/corn" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</FrameLayout>

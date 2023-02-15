@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.kumoh19.streetfood3.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/navigation_category"
+        android:name="com.kumoh19.streetfood3.Category"
+        android:label="@string/title_category"
+        tools:layout="@layout/fragment_category" />
+    <fragment
+        android:id="@+id/navigation_ranking"
+        android:name="com.kumoh19.streetfood3.Ranking"
+        android:label="@string/title_ranking"
+        tools:layout="@layout/fragment_ranking" />
+    <fragment
+        android:id="@+id/navigation_add"
+        android:name="com.kumoh19.streetfood3.Add"
+        android:label="@string/title_add"
+        tools:layout="@layout/fragment_add" />
+    <fragment
+        android:id="@+id/navigation_mypage"
+        android:name="com.kumoh19.streetfood3.Mypage"
+        android:label="@string/title_mypage"
+        tools:layout="@layout/fragment_mypage" />
+
+</navigation>
